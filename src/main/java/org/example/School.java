@@ -51,7 +51,10 @@ public class School {
                 break;
             }
         }
-        if (index == -1) System.out.println("Tokio Studento nėra");
+        if (index == -1){
+            System.out.println("Tokio Studento nėra");
+            return;
+        }
         Student student = students[index];
         int[] pazymiai = student.getGrades();
 
