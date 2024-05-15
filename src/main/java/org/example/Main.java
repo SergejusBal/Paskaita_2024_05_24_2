@@ -16,6 +16,8 @@ public class Main {
         Student student10 = new Student("Gediminas", new int[]{10,8,10,8,8,7,10,10,7,7,7});
         Student student11 = new Student("Gintarė", new int[]{10,8,10,8,8,7,10,10,6,7,8,8});
 
+        student1.addGrade(10);
+
         School school = new School(new Student[0]);
         school.addStudent(student1);
         school.addStudent(student2);
